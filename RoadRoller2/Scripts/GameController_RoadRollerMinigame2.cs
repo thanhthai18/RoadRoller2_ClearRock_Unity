@@ -274,7 +274,7 @@ public class GameController_RoadRollerMinigame2 : MonoBehaviour
 
             mousePos = new Vector2(Mathf.Clamp(mousePos.x, -mainCamera.orthographicSize * f2 + 1.3f + tmpPos_RoadRoller.x, mainCamera.orthographicSize * f2 - 1.3f + tmpPos_RoadRoller.x), Mathf.Clamp(mousePos.y, -mainCamera.orthographicSize + 0.5f + tmpPos_RoadRoller.y, mainCamera.orthographicSize - 3f + tmpPos_RoadRoller.y));
             RoadRollerObj.transform.position = new Vector2(mousePos.x - tmpPos_RoadRoller.x, mousePos.y - tmpPos_RoadRoller.y);
-            RoadRollerObj.transform.position = new Vector2(mousePos.x - tmpPos_RoadRoller.x, mousePos.y - tmpPos_RoadRoller.y);
+            
         }
     }
 
